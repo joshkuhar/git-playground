@@ -5,11 +5,11 @@ app.get('/', function(req, res) {
     res.send("Hello World");
 });
 
-app.get('/r', function(req, res) {
+app.get('/z', function(req, res) {
     res.send("Hello World-r");
 });
 
-app.get('/rr', function(req, res) {
+app.get('/zz', function(req, res) {
     res.send("Hello World-rr");
 });
 
