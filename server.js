@@ -8,7 +8,9 @@ app.get('/', function(req, res) {
 app.get('/xyz', function(req, res) {
     res.send("Hello World-r");
 });
-
+app.get('/abc', function(req, res) {
+    res.send("Hello World-abc");
+});
 app.get('/renamed', function(req, res) {
     res.send("Hello World-renamed");
 });
